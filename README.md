@@ -3,6 +3,7 @@ license: openrail++
 tags:
 - stable-diffusion
 - text-to-image
+pinned: true
 ---
 
 # Stable Diffusion v2-1 Model Card
