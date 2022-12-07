@@ -1,5 +1,5 @@
 {
-  "_class_name": "UNet2DConditionModel",
+  "_class_name": "FlaxUNet2DConditionModel",
   "_diffusers_version": "0.10.0.dev0",
   "act_fn": "silu",
   "attention_head_dim": [
@@ -23,6 +23,7 @@
     "DownBlock2D"
   ],
   "downsample_padding": 1,
+  "dropout": 0.0,
   "dual_cross_attention": false,
   "flip_sin_to_cos": true,
   "freq_shift": 0,
@@ -41,6 +42,5 @@
     "CrossAttnUpBlock2D",
     "CrossAttnUpBlock2D"
   ],
-  "use_linear_projection": true,
-  "upcast_attention": true
+  "use_linear_projection": true
 }

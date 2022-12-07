@@ -1,6 +1,6 @@
 {
-  "_class_name": "AutoencoderKL",
-  "_diffusers_version": "0.8.0",
+  "_class_name": "FlaxAutoencoderKL",
+  "_diffusers_version": "0.9.0.dev0",
   "_name_or_path": "hf-models/stable-diffusion-v2-768x768/vae",
   "act_fn": "silu",
   "block_out_channels": [
