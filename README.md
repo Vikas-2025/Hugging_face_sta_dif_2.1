@@ -10,8 +10,6 @@ This model card focuses on the model associated with the Stable Diffusion v2-1 m
 
 This `stable-diffusion-2-1` model is fine-tuned from [stable-diffusion-2](https://huggingface.co/stabilityai/stable-diffusion-2) (`768-v-ema.ckpt`) with an additional 55k steps on the same dataset (with `punsafe=0.1`), and then fine-tuned for another 155k extra steps with `punsafe=0.98`.
 
-![image](https://github.com/Stability-AI/stablediffusion/blob/main/assets/stable-samples/txt2img/768/merged-0005.png?raw=true)
-
 - Use it with the [`stablediffusion`](https://github.com/Stability-AI/stablediffusion) repository: download the `v2-1_768-ema-pruned.ckpt` [here](https://huggingface.co/stabilityai/stable-diffusion-2-1/blob/main/v2-1_768-ema-pruned.ckpt).
 - Use it with 🧨 [`diffusers`](#examples)
 
