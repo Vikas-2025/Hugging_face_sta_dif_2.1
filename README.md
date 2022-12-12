@@ -40,14 +40,14 @@ Using the [🤗's Diffusers library](https://github.com/huggingface/diffusers) t
 ```bash
 pip install --upgrade git+https://github.com/huggingface/diffusers.git transformers accelerate scipy
 ```
-Running the pipeline (if you don't swap the scheduler it will run with the default DDIM, in this example we are swapping it to EulerDiscreteScheduler):
+Running the pipeline (if you don't swap the scheduler it will run with the default DDIM, in this example we are swapping it to DPMSolverMultistepScheduler):
 
 ```python
 from diffusers import StableDiffusionPipeline, DPMSolverMultistepScheduler
 
 model_id = "stabilityai/stable-diffusion-2-1"
 
-# Use the Euler scheduler here instead
+# Use the DPMSolverMultistepScheduler (DPM-Solver++) scheduler here instead
 pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16)
 pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
 pipe = pipe.to("cuda")
