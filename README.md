@@ -7,7 +7,7 @@ pinned: true
 ---
 
 # Stable Diffusion v2-1 Model Card
-This model card focuses on the model associated with the Stable Diffusion v2-1 model, codebase avaliable [here](https://github.com/Stability-AI/stablediffusion).
+This model card focuses on the model associated with the Stable Diffusion v2-1 model, codebase available [here](https://github.com/Stability-AI/stablediffusion).
 
 This `stable-diffusion-2-1` model is fine-tuned from [stable-diffusion-2](https://huggingface.co/stabilityai/stable-diffusion-2) (`768-v-ema.ckpt`) with an additional 55k steps on the same dataset (with `punsafe=0.1`), and then fine-tuned for another 155k extra steps with `punsafe=0.98`.
 
