@@ -38,7 +38,7 @@ This `stable-diffusion-2-1` model is fine-tuned from [stable-diffusion-2](https:
 Using the [🤗's Diffusers library](https://github.com/huggingface/diffusers) to run Stable Diffusion 2 in a simple and efficient manner.
 
 ```bash
-pip install --upgrade git+https://github.com/huggingface/diffusers.git transformers accelerate scipy
+pip install diffusers transformers accelerate scipy safetensors
 ```
 Running the pipeline (if you don't swap the scheduler it will run with the default DDIM, in this example we are swapping it to DPMSolverMultistepScheduler):
 
