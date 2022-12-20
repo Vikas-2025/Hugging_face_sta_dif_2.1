@@ -2,8 +2,8 @@
   "_class_name": "StableDiffusionPipeline",
   "_diffusers_version": "0.8.0",
   "feature_extractor": [
-    null,
-    null
+    "transformers",
+    "CLIPFeatureExtractor"
   ],
   "safety_checker": [
     null,
